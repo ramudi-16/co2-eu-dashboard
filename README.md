@@ -25,3 +25,5 @@ across 5 European nations from 2019 to 2023.
 ## How to Run Locally
 pip install -r requirements.txt
 streamlit run app.py
+
+## Sprint 1: Data loading and sidebar filters
