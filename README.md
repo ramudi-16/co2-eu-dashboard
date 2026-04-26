@@ -33,3 +33,4 @@ streamlit run app.py
 ### Sprint 3: EV market share chart
 ### Sprint 4: Fuel mix chart
 ### Sprint 5: Heatmap and scatter charts
+### Sprint 6: Manufacturer chart and policy conclusion
