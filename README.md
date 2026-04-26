@@ -24,21 +24,22 @@ across 5 European nations from 2019 to 2023.
 
 ## How to Run Locally
 `pip install -r requirements.txt`
+
 `streamlit run app.py`
 
 ## 📊 Key Sustainability Findings
 
-**37% CO2 reduction** from 122.9 g/km (2019) to 77.4 g/km (2023)
+- **37% CO2 reduction** from 122.9 g/km (2019) to 77.4 g/km (2023)
 
-**Norway** achieved 91.5% EV share by 2023 — EU leader
+- **Norway** achieved 91.5% EV share by 2023 — EU leader
 
-**Croatia** remains at 4.1% EV share — lowest in dataset
+- **Croatia** remains at 4.1% EV share — lowest in dataset
 
-**Greece** (124.6 g/km) and **Croatia** (131.0 g/km) exceed EU limit
+- **Greece** (124.6 g/km) and **Croatia** (131.0 g/km) exceed EU limit
 
-**41.8%** of all registrations are Electric or Plug-in Hybrid
+- **41.8%** of all registrations are Electric or Plug-in Hybrid
 
-**COVID-19 (2020)** caused temporary CO2 drop — not real improvement
+- **COVID-19 (2020)** caused temporary CO2 drop — not real improvement
 
 ## 🎨 Streamlit Widgets Used
 `st.cache_data` : Cache dataset for performance 
@@ -74,22 +75,22 @@ across 5 European nations from 2019 to 2023.
 `st.stop` : Prevent crash on empty filter 
 
 ## 🔧 Development Methodology
-Sprint 1: Data loading and sidebar filters
+- Sprint 1: Data loading and sidebar filters
 
-Sprint 2: CO2 trend chart
+- Sprint 2: CO2 trend chart
 
-Sprint 3: EV market share chart
+- Sprint 3: EV market share chart
 
-Sprint 4: Fuel mix chart
+- Sprint 4: Fuel mix chart
 
-Sprint 5: Heatmap and scatter charts
+- Sprint 5: Heatmap and scatter charts
 
-Sprint 6: Manufacturer chart and policy conclusion
+- Sprint 6: Manufacturer chart and policy conclusion
 
 ## 🌐 Deployment
 
 **Platform:** Streamlit Cloud
-Repository : https://github.com/ramudi-16/eu-co2-dashboard |
+Repository : (https://github.com/ramudi-16/co2-eu-dashboard.git/) 
 
 Branch : main 
 
