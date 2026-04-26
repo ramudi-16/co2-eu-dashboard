@@ -1,7 +1,9 @@
 # European Car Registration Emissions Dashboard
 
 **Student:** Ramudi Vidanagamachchi | W2151470
+
 **Module:** 5DATA004C Data Science Project Lifecycle | CW2
+
 **University:** University of Westminster / IIT
 
 ## About
@@ -27,3 +29,4 @@ pip install -r requirements.txt
 streamlit run app.py
 
 ## Sprint 1: Data loading and sidebar filters
+## Sprint 2: CO2 trend chart
