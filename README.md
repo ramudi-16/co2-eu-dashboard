@@ -1,6 +1,6 @@
 # European Car Registration Emissions Dashboard
 
-## About
+## 🔗About
 Interactive Streamlit dashboard analysing CO2 emissions
 across 5 European nations from 2019 to 2023.
 
@@ -9,25 +9,25 @@ across 5 European nations from 2019 to 2023.
 - Source: European Environment Agency (EEA)
 - Regulation: EU Regulation 2019/631
 
-## Files
+## 🔗Files
 - app.py : Streamlit Dashboard 
 - co2_data_clean.csv : Cleaned dataset used by the Dashboard 
 - clean_data.py : Data Cleaning Script 
 - co2_data.csv  : Orginal Dataset 
 - requirements.txt : Python Dependancies for deployment 
 
-## Features
+## 🔗Features
 - 5 interactive filters
 - 6 KPI cards
 - 8 visualisations
 - CSV download
 
-## How to Run Locally
+## 🔗How to Run Locally
 `pip install -r requirements.txt`
 
 `streamlit run app.py`
 
-## 📊 Key Sustainability Findings
+## 🔗Key Sustainability Findings
 
 - **37% CO2 reduction** from 122.9 g/km (2019) to 77.4 g/km (2023)
 
@@ -41,7 +41,7 @@ across 5 European nations from 2019 to 2023.
 
 - **COVID-19 (2020)** caused temporary CO2 drop — not real improvement
 
-## 🎨 Streamlit Widgets Used
+## 🔗Streamlit Widgets Used
 `st.cache_data` : Cache dataset for performance 
 
 `st.spinner` : Loading indicator 
@@ -74,7 +74,7 @@ across 5 European nations from 2019 to 2023.
 
 `st.stop` : Prevent crash on empty filter 
 
-## 🔧 Development Methodology
+## 🔗Development Methodology
 - Sprint 1: Data loading and sidebar filters
 
 - Sprint 2: CO2 trend chart
@@ -87,14 +87,15 @@ across 5 European nations from 2019 to 2023.
 
 - Sprint 6: Manufacturer chart and policy conclusion
 
-## 🌐 Deployment
+## 🔗Deployment
 
 **Platform:** Streamlit Cloud
+
 Repository : (https://github.com/ramudi-16/co2-eu-dashboard.git/) 
 
 Branch : main 
 
 Main file : app.py 
 
-## Live Dashboard
+## 🔗Live Dashboard
 [Click here to open dashboard](https://eu-co2-dashboard.streamlit.app/)
