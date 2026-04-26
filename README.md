@@ -32,3 +32,4 @@ streamlit run app.py
 ### Sprint 2: CO2 trend chart
 ### Sprint 3: EV market share chart
 ### Sprint 4: Fuel mix chart
+### Sprint 5: Heatmap and scatter charts
