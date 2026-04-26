@@ -28,5 +28,6 @@ across 5 European nations from 2019 to 2023.
 pip install -r requirements.txt
 streamlit run app.py
 
-## Sprint 1: Data loading and sidebar filters
-## Sprint 2: CO2 trend chart
+### Sprint 1: Data loading and sidebar filters
+### Sprint 2: CO2 trend chart
+### Sprint 3: EV market share chart
