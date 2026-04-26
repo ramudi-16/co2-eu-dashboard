@@ -16,7 +16,7 @@ across 5 European nations from 2019 to 2023.
 - Regulation: EU Regulation 2019/631
 
 ## Live Dashboard
-[Click here to open dashboard](PASTE_STREAMLIT_URL_HERE)
+[Click here to open dashboard](https://eu-co2-dashboard.streamlit.app/)
 
 ## Features
 - 5 interactive filters
