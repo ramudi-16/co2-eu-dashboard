@@ -1,5 +1,5 @@
 # app.py — European Car Registration Emissions Dashboard
-# Student: Ramudi Vidanagamachchi | W2151470
+# Name: Ramudi Vidanagamachchi | W2151470
 # Module: 5DATA004C Data Science Project Lifecycle | CW2
 
 from pathlib import Path
