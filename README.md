@@ -23,8 +23,8 @@ requirements.txt : Python Dependancies for deployment
 - CSV download
 
 ## How to Run Locally
-pip install -r requirements.txt
-streamlit run app.py
+`pip install -r requirements.txt`
+`streamlit run app.py`
 
 ## 📊 Key Sustainability Findings
 
@@ -54,18 +54,25 @@ streamlit run app.py
 `st.stop` : Prevent crash on empty filter 
 
 ## 🔧 Development Methodology
-###Sprint 1: Data loading and sidebar filters
-###Sprint 2: CO2 trend chart
-###Sprint 3: EV market share chart
-###Sprint 4: Fuel mix chart
-###Sprint 5: Heatmap and scatter charts
-###Sprint 6: Manufacturer chart and policy conclusion
+### Sprint 1: Data loading and sidebar filters
+
+### Sprint 2: CO2 trend chart
+
+### Sprint 3: EV market share chart
+
+### Sprint 4: Fuel mix chart
+
+### Sprint 5: Heatmap and scatter charts
+
+### Sprint 6: Manufacturer chart and policy conclusion
 
 ## 🌐 Deployment
 
 **Platform:** Streamlit Cloud
 Repository : https://github.com/ramudi-16/eu-co2-dashboard |
+
 Branch : main 
+
 Main file : app.py 
 
 ## Live Dashboard
