@@ -557,7 +557,7 @@ def main():
 <div class="logo-box" style="margin-top:0 !important">
     <div class="logo-circle">EV</div>
     <div>
-        <div class="logo-title">EEA Vehicle Transition</div>
+        <div class="logo-title">🚗 EEA Vehicle Transition</div>
         <div class="logo-caption">Dashboard controls</div>
     </div>
 </div>
@@ -614,19 +614,19 @@ def main():
         <div class="ds-box">
             <div class="ds-head">Dataset overview</div>
             <div class="ds-row">
-                <span class="ds-k">Total records</span>
+                <span class="ds-k">📁Total records</span>
                 <span class="ds-v">{len(df):,}</span>
             </div>
             <div class="ds-row">
-                <span class="ds-k">Filtered records</span>
+                <span class="ds-k">📂Filtered records</span>
                 <span class="ds-v">{len(filtered):,}</span>
             </div>
             <div class="ds-row">
-                <span class="ds-k">Countries</span>
+                <span class="ds-k">🌎Countries</span>
                 <span class="ds-v">{filtered["Country"].nunique()}</span>
             </div>
             <div class="ds-row">
-                <span class="ds-k">Years</span>
+                <span class="ds-k">📆Years</span>
                 <span class="ds-v">{year_range[0]}–{year_range[1]}</span>
             </div>
         </div>
@@ -693,42 +693,42 @@ def main():
     st.markdown(f"""
     <div class="kpi-row">
         <div class="kpi-card">
-            <div class="kpi-lbl">Avg CO2</div>
+            <div class="kpi-lbl">🌱Avg CO2</div>
             <div class="kpi-val">{avg_co2:.1f} g/km</div>
             <div class="kpi-sub kpi-r">{avg_co2-co2_2019:.1f} vs 2019</div>
             <div class="kpi-bar"><div class="kpi-fill"
                 style="width:{min(avg_co2/200*100,100):.0f}%;background:#2563eb"></div></div>
         </div>
         <div class="kpi-card">
-            <div class="kpi-lbl">EV Share</div>
+            <div class="kpi-lbl">⚡EV Share</div>
             <div class="kpi-val">{ev_pct:.1f}%</div>
             <div class="kpi-sub kpi-g">+{ev_pct-ev_2019:.1f} pts vs 2019</div>
             <div class="kpi-bar"><div class="kpi-fill"
                 style="width:{ev_pct:.0f}%;background:#059669"></div></div>
         </div>
         <div class="kpi-card">
-            <div class="kpi-lbl">Total Cars</div>
+            <div class="kpi-lbl">🚘Total Cars</div>
             <div class="kpi-val">{total:,}</div>
             <div class="kpi-sub kpi-b">Real registrations in dataset</div>
             <div class="kpi-bar"><div class="kpi-fill"
                 style="width:100%;background:#7c3aed"></div></div>
         </div>
         <div class="kpi-card">
-            <div class="kpi-lbl">CO2 Reduction</div>
+            <div class="kpi-lbl">📉CO2 Reduction</div>
             <div class="kpi-val">{red_pct:.0f}%</div>
             <div class="kpi-sub kpi-g">Drop from 2019 to 2023</div>
             <div class="kpi-bar"><div class="kpi-fill"
                 style="width:{red_pct:.0f}%;background:#059669"></div></div>
         </div>
         <div class="kpi-card">
-            <div class="kpi-lbl">Greenest Country</div>
+            <div class="kpi-lbl">🌿Greenest Country</div>
             <div class="kpi-val">{best_c}</div>
             <div class="kpi-sub kpi-g">{no_avg:.1f} g/km average</div>
             <div class="kpi-bar"><div class="kpi-fill"
                 style="width:15%;background:#059669"></div></div>
         </div>
         <div class="kpi-card">
-            <div class="kpi-lbl">Avg Gap to Target</div>
+            <div class="kpi-lbl">🎯Avg Gap to Target</div>
             <div class="kpi-val">{avg_gap:.1f} g/km</div>
             <div class="kpi-sub kpi-g">Negative = below EU limit ✅</div>
             <div class="kpi-bar"><div class="kpi-fill"
@@ -752,7 +752,7 @@ def main():
     st.markdown(f"""
     <div style="background:#ecfdf5; border:1px solid #86efac; border-radius:8px; 
                 padding:12px 18px; margin:12px 0; font-size:0.86rem; color:#166534;">
-        <strong>Key Insights:</strong> 
+        <strong>📍Key Insights:</strong> 
         Norway best: <strong>{norway_co2:.1f} g/km</strong> • 
         Croatia worst: <strong>{croatia_co2:.1f} g/km</strong> • 
         Gap: <strong>{croatia_co2 - norway_co2:.1f} g/km</strong> • 
