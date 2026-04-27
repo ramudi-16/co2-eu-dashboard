@@ -643,7 +643,7 @@ def main():
         )
         st.markdown(
             "<div class='src-note'>Source: co2_data_clean.csv<br>"
-            "Default view uses all records.</div>",
+            ".</div>",
             unsafe_allow_html=True
         )
  
@@ -950,7 +950,7 @@ def main():
         border-top:1px solid #e2e8f0;margin-top:10px;text-align:center">
         All CO2 values in g/km WLTP · EU Target: 115.1 g/km (Regulation EU 2019/631) ·
         EU 2035 Target: 0 g/km · Source: European Environment Agency (EEA) ·
-        <b>Ramudi Vidanagamachchi W2151470</b> · University of Westminster / IIT
+        <b>Ramudi Vidanagamachchi</b>
     </div>
     """, unsafe_allow_html=True)
  
