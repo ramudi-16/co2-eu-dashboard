@@ -920,14 +920,13 @@ def main():
             cols = ["Country","Year","Pool","Manufacturer","Car_Model",
                     "Fuel_Type","CO2_gkm","Weight_kg","Engine_Power_kW",
                     "Electric_Range_km","Gap_to_Target","CO2_Category","Weight_Category"]
+            tbl = filtered[cols].head(1000).copy()
+
             if search:
-                full_tbl = filtered[cols].copy()
-                mask = full_tbl.apply(
+                mask = tbl.apply(
                     lambda r: r.astype(str).str.contains(search, case=False).any(),
                     axis=1)
-                tbl = full_tbl[mask].head(1000)
-            else:
-                tbl = filtered[cols].head(1000).copy()
+                tbl = tbl[mask]
  
             st.caption(f"Showing {len(tbl):,} of {len(filtered):,} filtered records")
  
