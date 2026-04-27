@@ -920,6 +920,7 @@ def main():
             cols = ["Country","Year","Pool","Manufacturer","Car_Model",
                     "Fuel_Type","CO2_gkm","Weight_kg","Engine_Power_kW",
                     "Electric_Range_km","Gap_to_Target","CO2_Category","Weight_Category"]
+
             tbl = filtered[cols].head(1000).copy()
 
             if search:
