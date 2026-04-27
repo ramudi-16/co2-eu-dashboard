@@ -1,5 +1,5 @@
 # app.py — European Car Registration Emissions Dashboard
-# Name: Ramudi Vidanagamachchi | W2151470
+# Student: Ramudi Vidanagamachchi | W2151470
 # Module: 5DATA004C Data Science Project Lifecycle | CW2
 
 from pathlib import Path
@@ -557,7 +557,7 @@ def main():
 <div class="logo-box" style="margin-top:0 !important">
     <div class="logo-circle">EV</div>
     <div>
-        <div class="logo-title">🚗 EEA Vehicle Transition</div>
+        <div class="logo-title"> 🚗EEA Vehicle Transition</div>
         <div class="logo-caption">Dashboard controls</div>
     </div>
 </div>
@@ -920,9 +920,8 @@ def main():
             cols = ["Country","Year","Pool","Manufacturer","Car_Model",
                     "Fuel_Type","CO2_gkm","Weight_kg","Engine_Power_kW",
                     "Electric_Range_km","Gap_to_Target","CO2_Category","Weight_Category"]
-
             tbl = filtered[cols].head(1000).copy()
-
+ 
             if search:
                 mask = tbl.apply(
                     lambda r: r.astype(str).str.contains(search, case=False).any(),
